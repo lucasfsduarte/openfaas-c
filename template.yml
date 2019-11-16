@@ -1,0 +1,10 @@
+language: c
+fprocess: /handler
+build_options:
+  - name: dev
+    packages:
+      - gcc
+welcome_message:
+    You just created a C serverless function!
+    Feel free to add your own functions on function/manager.c file.
+    Don't forget to update Dockerfile if you add new C files. Enjoy!
