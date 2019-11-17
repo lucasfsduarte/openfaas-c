@@ -42,25 +42,24 @@ $ ./deploy_stack.sh
 
 At this point, the OpenFaaS UI is already available at `http://localhost:8080` or
 at the ip address corresponding to the specified Ethernet adapter (`http://192.168.100.1:8080`, for example).
-Do not forget to save the access credentials generated in the beginning. They are used to get access into
-UI and FaaS CLI interface.
+Don't forget to save the credentials generated. They are used for authentication by UI and FaaS CLI interface.
 
 > Installing the CLI
 
-The CLI is a useful way to interact with OpenFaaS functions. To get it, type:
+The CLI is a useful way to interact with OpenFaaS functions. To install it, type:
 
 ```
 $ curl -sSL https://cli.openfaas.com | sudo sh
 ```
 
-Now, everything is set and you're ready to go.
+Now everything is set and you're ready to go.
 
 ## Building and deploying your function
 
-Create a folder on /template folder and clone this repository inside it:
+Create a template folder and clone this repository inside a c/ folder inside it:
 
 ```
-$ mkdir template/c && cd template/c
+$ mkdir template && mkdir template/c && cd template/c
 $ git clone https://github.com/lucasfsduarte/openfaas-c.git
 ```
 
