@@ -14,4 +14,4 @@
 #include <stdlib.h>
 #include <string.h>
 
-int function(char *data);
+int manager(char *data);
