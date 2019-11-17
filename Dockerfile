@@ -1,6 +1,6 @@
 FROM openfaas/classic-watchdog:0.18.0 as watchdog
 
-FROM frolvlad/alpine-gcc
+FROM lucasfsduarte/alpine-build-base
 
 # Allows you to add additional packages via build-arg
 ARG ADDITIONAL_PACKAGE
