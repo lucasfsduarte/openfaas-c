@@ -5,6 +5,6 @@ build_options:
     packages:
       - gcc
 welcome_message:
-    You just created a C serverless function!
+    You just created a serverless C function!
     Feel free to add your own functions on function/manager.c file.
     Don't forget to update Dockerfile if you add new C files. Enjoy!
