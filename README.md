@@ -92,3 +92,7 @@ Sometimes is necessary to run `faas-cli login` in order to build and/or deploy
 your functions. The parameters are the username and password generated on FaaS
 stack deploy step. You may also need to inform the Ethernet interface through
 `--gateway` flag.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
